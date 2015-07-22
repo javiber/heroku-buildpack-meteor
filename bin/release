@@ -7,4 +7,5 @@ cat <<-YAML
 ---
 default_process_types:
   web: node build/bundle/main.js
+  worker: node build/bundle/extra/mailListener.js
 YAML
